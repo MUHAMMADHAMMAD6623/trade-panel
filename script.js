@@ -3,12 +3,18 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
     var data = google.visualization.arrayToDataTable([
-        ['Balance', 'Number of trades'],
+        ['Balance', 'Balance'],
         ['0', 0],
         ['1', 34],
         ['2', 270],
         ['3', 200],
-        ['4', 290]
+        ['4', 290],
+        ['5', 290],
+        ['6', 160],
+        ['7', 290],
+        ['8', 290],
+        ['9', 90],
+        ['10', 290]
     ]);
 
     var options = {
